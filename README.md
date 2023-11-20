@@ -22,8 +22,11 @@ With as few steps as possible
 - Plot your results as follows:  
     As real cumulative reward of all episodes so far (y-axis) over number of steps (x-axis), averaged over ten different environments
 <br><br>
+
+
 --------------------------------------------------------------------------------  
 ### Folder structure (TASK1)  
+
 .  
 ├── plot                     &emsp;# The figures of the tasks (plot as png)  
 &emsp;├── plot                    &emsp;# Plot for task 1  
@@ -50,6 +53,8 @@ With as few steps as possible
 ├── requirements.txt         &emsp;# Requirements file for pip packages  
 └── task1.pdf                &emsp;# Task descripion  
 <br><br>
+
+
 --------------------------------------------------------------------------------
 ### Task definition:
 Solve the gridworld environment Random in file gridworld.py
@@ -62,6 +67,8 @@ Solve the gridworld environment Random in file gridworld.py
     - for 1. as real cumulative reward of the current episode (y-axis) over episodes (x-axis), averaged over ten different environments
     - for 2. as real cumulative reward of all episodes so far (y-axis) over number of steps (x-axis), averaged over ten different environments
 <br><br>
+
+
 --------------------------------------------------------------------------------  
 ### Version
 
@@ -69,12 +76,16 @@ Solve the gridworld environment Random in file gridworld.py
 - numpy:       1.20.3  
 - matplotlib:  3.4.3  
 <br><br>
+
+
 --------------------------------------------------------------------------------
 ### Install packages  
 - Install Python  
 - Go to the folder TASK1   
 - In console: pip install -r requirements.txt  
 <br><br>
+
+
 --------------------------------------------------------------------------------
 ### Start script  
   
@@ -110,10 +121,12 @@ Solve the gridworld environment Random in file gridworld.py
 - DECAY_RATE: The decay rate for the epsilon value
 - DECAY_INTERVAL: The decay interval for the epsilon value
 
-<br><br>
-- cd TASK1/            &emsp;#  Go to folder TASK1/
-- cd src/              &emsp;# Go to folder src/ in TASK1/
+<br>
+
+- cd TASK1/            &emsp;#  Go to folder TASK1/  
+- cd src/              &emsp;# Go to folder src/ in TASK1/  
 - python3 task_2.py    &emsp;# Start the algorithm with the specified hyperparameters and method to get results
+<br><br>
 
 
 --------------------------------------------------------------------------------
